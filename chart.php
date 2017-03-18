@@ -6,7 +6,8 @@
             columns: [
                 ['баланс', <?php foreach ($balance as $res) echo $res . ',' ?>],
                 ['операция', <?php foreach ($operations as $operation) echo $operation . ',' ?>]
-            ]
+            ],
+            hide: ['операция']
         },
         legend: {
             position : 'inset'
