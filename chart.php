@@ -8,6 +8,9 @@
                 ['операция', <?php foreach ($operations as $operation) echo $operation . ',' ?>]
             ]
         },
+        legend: {
+            position : 'inset'
+        },
         axis: {
             x: {
                 label: "операции"
@@ -30,6 +33,14 @@
                     text: 'Y2 Label',
                     position: 'outer-middle'
                 }
+            }
+        },
+        grid: {
+            x: {
+                show: false
+            },
+            y: {
+                show: false
             }
         }
     });

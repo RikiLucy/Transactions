@@ -19,6 +19,7 @@
 <body class="container">
 
     <h3>The growth of balance depending on each operation.</h3>
+    <h5>Click on the legend - hide / show chart</h5>
 
     <div id="chart"></div>
     <form enctype="multipart/form-data" action="index.php" method="POST" class="form-group">
@@ -33,9 +34,9 @@
         </div>
     </form>
 
-<?php require_once('parser.php'); ?>
-<?php require_once('chart.php'); ?>
-<?php echo $file;?>
+    <?php require_once('parser.php');?>
+    <?php require_once('chart.php'); ?>
+    <?php echo $file;?>
 
 </body>
 </html>
